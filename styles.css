@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+div{
+    color: white;
+    margin: 12px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: black;
+    margin: 20px 20px;
+    color: white;
+    border: 0;
+}
+
+button:hover{
+    color: red;
+    font-weight: bold;
+
+}
+
+.blink {
+    animation: blinker 2.5s linear infinite;
+    color: yellow;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
